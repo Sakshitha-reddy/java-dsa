@@ -4,14 +4,11 @@ public class pattern14 {
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-        int count=6;
-		for(int i=1;i<=n;i++){
-           for(int j=65;count>i;j++){
-                System.out.print((char)j+" ");
-                count--;
-           }
-		    System.out.println();
-            count=6;
-        }     
+        for(int i=1;i<=n;i++){
+			for(int j=1;j<=i;j++){
+				System.out.print(i);
+			}
+		System.out.println();
+		}
 		}
     }
